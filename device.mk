@@ -37,9 +37,7 @@ PRODUCT_PACKAGES += \
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
-        LiveWallpapers \
         LiveWallpapersPicker \
-        VisualizationWallpapers \
         librs_jni
 
 LOCAL_KERNEL := device/lge/mako-kernel/kernel
