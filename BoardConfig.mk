@@ -23,6 +23,7 @@ TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
 TARGET_MPDECISION_BOOST_SOCKET := /dev/socket/mpdecision/touchboost
+TARGET_PROVIDES_GPS_LOC_API := true
 
 # Krait optimizations
 TARGET_USE_KRAIT_BIONIC_OPTIMIZATION := true
